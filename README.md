@@ -1,18 +1,12 @@
 # Snoopy
-Snoopy is an acronym meaning SNipPet repOsitOrY
 
 Project Description
 This app is a code repository where you can store your wonderful code snippets or part of code.
-
 
 As a developper, I hate to create again and again something I've written weeks, months or even years ago.
 I've seen some code repositories on Internet but never as I would like them to be so I decided to create mine.
 
 Snoopy is an acronym meaning SNipPet repOsitOrY.
-
- 
-
-
 
 This project will use the wonderful control FastColoredTextBox http://www.codeproject.com/Articles/161871/Fast-Colored-TextBox-for-syntax-highlighting# written by Pavel Torgashov http://www.codeproject.com/script/Membership/View.aspx?mid=1005558
 
