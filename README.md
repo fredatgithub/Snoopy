@@ -8,7 +8,7 @@ I've seen some code repositories on Internet but never as I would like them to b
 
 Snoopy is an acronym meaning SNipPet repOsitOrY.
 
-[[https://github.com/fredatgithub/Snoopy/blob/master/snoopy.jpg|alt=SnoopyPicture]]
+
 
 
 This project will use the wonderful control FastColoredTextBox http://www.codeproject.com/Articles/161871/Fast-Colored-TextBox-for-syntax-highlighting# written by Pavel Torgashov http://www.codeproject.com/script/Membership/View.aspx?mid=1005558
