@@ -135,12 +135,12 @@
 
       if (string.IsNullOrEmpty(textBoxChercher.Text))
       {
-        MessageBox.Show(string.Format("Vous devez entrez au moins un mot clef à chercher.\n\n Entrez un ou plusieurs mots clefs séparés par des espaces."), string.Format("Attention"), MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        MessageBox.Show("Vous devez entrez au moins un mot clef à chercher.\n\n Entrez un ou plusieurs mots clefs séparés par des espaces.", "Attention", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
       }
 
       if (NumberOfCheckBoxChecked() == 0)
       {
-        MessageBox.Show(string.Format("Vous devez cocher au moins un langage."), string.Format("Attention"), MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        MessageBox.Show("Vous devez cocher au moins un langage.", "Attention", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
       }
 
       // récupération des options cochées
@@ -577,7 +577,7 @@
     {
       if (fctb.Text == string.Empty)
       {
-        MessageBox.Show(string.Format("Vous devez avoir du code à enregistrer."));
+        MessageBox.Show("Vous devez avoir du code à enregistrer.");
       }
       else
       {
@@ -598,7 +598,7 @@
           sw.Flush();
         }
 
-        MessageBox.Show(string.Format("Le code a été ajouté."), string.Format("Code ajouté"), MessageBoxButtons.OK, MessageBoxIcon.Information);
+        MessageBox.Show("Le code a été ajouté.", "Code ajouté", MessageBoxButtons.OK, MessageBoxIcon.Information);
       }
     }
 
